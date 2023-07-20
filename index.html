@@ -27,26 +27,39 @@
     <div class="container">
       <!-- navbar -->
       <nav>
-        <div class="nav-icon">
-          <img src="images/logo-icon.png" alt="logo" />
-          <h2 class="nav-icon__title">Starch</h2>
+        <!-- this is new -->
+        <div class="nav-container">
+          <div class="nav-icon">
+            <img src="images/logo-icon.png" alt="logo" />
+            <h2 class="nav-icon__title">Starch</h2>
+          </div>
+          <ul class="nav-list menu-list no-menu-list">
+            <li>About</li>
+            <li>
+              Service
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </li>
+            <li>
+              Source
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </li>
+
+            <li>Study case</li>
+            <li class="not-avaible">Log in</li>
+            <li></li>
+            <button class="nav__login-button">Contact</button>
+          </ul>
         </div>
-        <ul class="nav-list menu-list no-menu-list">
-          <li>About</li>
-          <li>
-            Service
-            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
-          </li>
-          <li>
-            Source
-            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
-          </li>
-          <li>Study case</li>
-          <li>Log in</li>
-          <li>
-            <button>Contact</button>
-          </li>
-        </ul>
+        <!-- <li> -->
+        <!-- <div> -->
+        <a href="#" class="nav__login-text">Log In</a>
+        <button class="nav__login-button">Contact</button>
+        <!-- </div> -->
+        <!-- </li> -->
         <div class="nav-menu-icon">
           <span class="material-symbols-outlined menu-icon"> menu </span>
         </div>
@@ -293,7 +306,7 @@
           <!-- <div class="accessible-country__image"> -->
           <!-- original image -->
           <img
-            src="images/country.png"
+            src="images/country-image-collection.png"
             alt="achievement-company-image"
             alt="country"
           />
@@ -318,7 +331,10 @@
               <h3>What is SEO?</h3>
               <div class="faq-section__icon">
                 <span class="material-symbols-outlined add-icon"> add </span>
-                <span class="material-symbols-outlined minus-icon">
+                <!-- This is new -->
+                <span
+                  class="material-symbols-outlined minus-icon minus-icon__for-large-screen"
+                >
                   remove
                 </span>
               </div>
@@ -434,7 +450,18 @@
             An SEO company focus such as keyword research, on-page optimization,
             link building, and analytics tracking.
           </p>
+
+          <!-- This is new for large screen -->
+          <!-- social media icons -->
+          <div class="footer-social-media-icons__large-screen">
+            <i class="fa-brands fa-facebook" style="color: #747474"></i>
+            <i class="fa-brands fa-twitter" style="color: #747474"></i>
+            <i class="fa-brands fa-linkedin" style="color: #747474"></i>
+            <i class="fa-brands fa-square-instagram" style="color: #747474"></i>
+          </div>
+          <!-- <hr class="footer-horizontal-line__large-screen" /> -->
         </div>
+
         <div class="footer-container">
           <div class="footer-service">
             <h2>Service</h2>
@@ -481,6 +508,9 @@
         </div>
         <hr class="footer-horizontal-line" />
       </footer>
+      <hr class="footer-horizontal-line__large-screen" />
+
+      <!-- <hr class="footer-horizontal-line__large-screen" /> -->
 
       <!-- copyright section -->
       <div class="copyright">
