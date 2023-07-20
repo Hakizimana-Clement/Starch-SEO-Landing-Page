@@ -1490,8 +1490,374 @@ body {
 /* ================================================================= */
 @media (min-width: 1024px) {
   .container {
+    /* testing */
+    /* max-width: 100vw; */
     max-width: 1024px;
-    background-color: rgb(165, 42, 165);
+    min-width: 1440px;
+    /* min-width: 1280px; */
+    /* background-color: rgb(165, 42, 165); */
+  }
+
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* navbar  section*/
+  /* //////////////////////////////////////////////////////////////////////// */
+  .nav-list {
+    /* display: none; */
+    /* position: none; */
+    all: unset;
+    display: flex;
+    align-items: center;
+  }
+  /* nav icon */
+  .nav-icon {
+    margin-right: 25px;
+  }
+
+  .nav-menu-icon {
+    display: none;
+  }
+  /* ==> this is new <== */
+  .nav-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+
+  .nav-list li {
+    /* margin: 3% 0; */
+    /* padding: 0 27px; */
+    padding-right: 22px;
+  }
+  .nav__login-text {
+    padding-right: 4%;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+  }
+  nav button {
+    background: #2961fc;
+    padding: 1% 3%;
+    color: white;
+    border: none;
+    border-radius: 9px;
+  }
+  .not-avaible {
+    display: none;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* hero section */
+  /* //////////////////////////////////////////////////////////////////////// */
+  .hero-section {
+    align-items: flex-end;
+    background-image: linear-gradient(1deg, #fefefe 92%, #f1eeee);
+    padding-top: 9%;
+  }
+  /* title section i mean div */
+  .hero-section__text {
+    padding-left: 0;
+  }
+  /* big title */
+  .hero-section__header {
+    font-size: 3.7rem;
+    line-height: 1.3;
+    /* font-weight: 600; */
+    font-weight: 600;
+  }
+  .hero-section__header-color {
+    font-weight: 600;
+  }
+  /* paragraph */
+  .hero-section__header-paragraph {
+    font-size: 1.23rem;
+    /* font-size: 0.9rem; */
+    line-height: 28px;
+  }
+  /* button */
+
+  .hero-section__header-reviews {
+    margin: 10% 0 0;
+  }
+  .hero-section__header-reviews button {
+    height: 56px;
+    width: 157px;
+    font-size: 1rem;
+    margin-right: 26px;
+  }
+
+  .hero-section__header-reviews button:hover {
+    background-color: #2252d7;
+  }
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* trusted section */
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* trusted companies container  */
+  .trusted-companies {
+    margin: 10% 0 0;
+    justify-content: flex-start;
+  }
+  /* text */
+  .trusted-companies__header {
+    margin-right: auto;
+    padding-left: 1%;
+    font-size: 1.76rem;
+    width: 36%;
+  }
+  /* images */
+  .trusted-companires__images {
+    width: 62%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .trusted-companires__images img {
+    width: 20%;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* Achievement goal section */
+  /* //////////////////////////////////////////////////////////////////////// */
+  .achievement-goals__header h2 {
+    width: 49%;
+  }
+
+  /* cards text */
+
+  .achievement-goals__cards-card-1-text {
+    padding: 0 12%;
+  }
+  .achievement-goals__cards-card-2-text {
+    padding: 0 15%;
+  }
+
+  .achievement-goals__cards-card-3-text {
+    padding: 0 8%;
+  }
+  /* card title*/
+  .achievement-goals__cards-card-1-text h3,
+  .achievement-goals__cards-card-2-text h3,
+  .achievement-goals__cards-card-3-text h3 {
+    font-size: 1.45rem;
+  }
+
+  /* card paragraph*/
+  .achievement-goals__cards-card-1-text p,
+  .achievement-goals__cards-card-2-text p,
+  .achievement-goals__cards-card-3-text p {
+    font-size: 0.83rem;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* accessible country section */
+  /* //////////////////////////////////////////////////////////////////////// */
+  .accessible-country__container {
+    justify-content: space-between;
+    /* ==> this is new <== */
+    background-image: linear-gradient(45deg, #eaeefa, #f9f9f9);
+  }
+
+  /* text */
+  .accessible-country__text h2 {
+    font-size: 3rem;
+  }
+
+  .accessible-country__text p {
+    font-size: 1rem;
+  }
+  /* button */
+  .accessible-country__text button {
+    font-size: 1rem;
+  }
+
+  /*image  */
+  .accessible-country__container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* faqs section */
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* faq text */
+  .faq h2 {
+    font-size: 3rem;
+    margin-bottom: 8%;
+  }
+
+  .faq-section__title h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  /* paragraph */
+  .faq-section__paragraph p {
+    line-height: 1.7;
+    font-size: 0.84rem;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* contact us section */
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* title */
+  .contact-us-section__title h2 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  /* button */
+  .contact-us-section__button button {
+    font-size: 1rem;
+    padding: 19px 59px;
+    /* font-weight: 550; */
+    letter-spacing: 2px;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* footer section */
+  /* //////////////////////////////////////////////////////////////////////// */
+  footer {
+    /* display: flex; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /* padding-left: 8%; */
+    padding: 0 6%;
+  }
+
+  /* footer::after {
+    content: "";
+    width: 10px;
+    height: 57%;
+    background-color: black;
+    position: absolute;
+    left: -40px;
+    top: 8px;
+  } */
+
+  /* service,resource,company and information  container*/
+  .footer-container {
+    display: flex;
+    /* align-items: baseline; */
+    flex-wrap: nowrap;
+    gap: 2rem;
+  }
+  /* service */
+  .footer-service {
+    margin-bottom: 22px;
+  }
+  /*For title small */
+  .footer-service h2,
+  .footer-resource h2,
+  .footer-company h2,
+  .footer-information h2 {
+    font-size: 1.3rem;
+    color: #2d2d2d;
+    margin-bottom: 25%;
+  }
+
+  /* list (sorry for bad commenting)*/
+  .footer-service__list li {
+    /* font-size: 0.8rem; */
+    font-size: 0.72rem;
+    /* margin-bottom: 12%; */
+    margin-bottom: 4px;
+  }
+  .footer-service__list .no-bold {
+    letter-spacing: 0;
+  }
+
+  /* icons */
+  .footer-social-media-icons {
+    display: none;
+  }
+
+  /* horintal line */
+  .footer-horizontal-line {
+    display: none;
+  }
+
+  .footer-header__icon p {
+    width: 97%;
+    font-size: 0.79rem;
+    line-height: 24px;
+  }
+
+  /* footer header */
+  .footer-header {
+    margin-right: auto;
+  }
+
+  .footer-header p {
+    width: 81%;
+    font-size: 0.7rem;
+  }
+
+  /* This is new */
+  /* icons */
+  .footer-social-media-icons__large-screen {
+    display: flex;
+    justify-content: flex-start;
+    /* margin: 7% 0 2%; */
+    margin: 12% 0;
+  }
+
+  .footer-social-media-icons__large-screen > * {
+    border-radius: 50%;
+    padding: 7px;
+    background: #d7d6d6ad;
+    margin-right: 30px;
+
+    /* border-radius: 50%;
+    padding: 10px; */
+  }
+
+  .footer-social-media-icons__large-screen > *:hover {
+    background-color: black;
+    /* color: blue; */
+  }
+  /* horizontal line */
+  .footer-horizontal-line__large-screen {
+    /* width: 224%; */
+    width: 92%;
+    /* border: 1px #734b4b solid; */
+    margin: 0 auto;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////// */
+  /* copyright section */
+  /* //////////////////////////////////////////////////////////////////////// */
+  .copyright {
+    /* display: flex;
+  
+    flex-direction: column; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    display: flex;
+    align-items: flex-end;
+    /* padding-right: 4%; */
+    /* padding: 19% 4% 27%; */
+    padding: 2% 4% 4%;
+  }
+  .copyright-terms {
+    margin-right: auto;
+
+    /* display: flex;
+    justify-content: space-between;
+    padding: 0 3%; */
+  }
+  /* paragraph */
+  .copyright-text p {
+    font-size: 0.64rem;
+  }
+  .copyright-terms a {
+    margin-right: 33px;
+  }
+  .copyright-terms {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
   }
 }
 
