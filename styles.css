@@ -19,7 +19,9 @@ body {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-
+button {
+  cursor: pointer;
+}
 /* ================================================================= */
 /* xs mobile */
 /* ================================================================= */
@@ -964,7 +966,7 @@ body {
   .grow-business-service__image img {
     /* width: 100%; */
     /* height: 100%; */
-    /* object-fit: contain; */
+    /* object-fit: none; */
     all: unset;
   }
   /* ==> This is new <== */
@@ -1826,6 +1828,8 @@ body {
     font-size: 0.72rem;
     /* margin-bottom: 12%; */
     margin-bottom: 4px;
+    cursor: pointer;
+    cursor: pointer;
   }
   .footer-service__list .no-bold {
     letter-spacing: 0;
@@ -1864,6 +1868,7 @@ body {
     justify-content: flex-start;
     /* margin: 7% 0 2%; */
     margin: 12% 0;
+    cursor: pointer;
   }
 
   .footer-social-media-icons__large-screen > * {
@@ -2166,7 +2171,9 @@ body {
   .accessible-country__text button {
     font-size: 1.22rem;
   }
-
+  .accessible-country__container img {
+    object-fit: fill;
+  }
   /* //////////////////////////////////////////////////////////////////////// */
   /* faqs section */
   /* //////////////////////////////////////////////////////////////////////// */
@@ -2187,6 +2194,7 @@ body {
   /* add icon */
   .add-icon {
     font-size: 36px;
+    cursor: pointer;
   }
 
   /* this is new */
@@ -2274,6 +2282,6 @@ body {
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
-    background-color: rgb(56, 2, 11);
+    /* background-color: rgb(56, 2, 11); */
   }
 }
